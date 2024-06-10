@@ -1,0 +1,49 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F3CC; /* Color de fondo opcional */
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamano_imagen{
+    height: 50%;
+    width: 50%;
+}
+
+h1{
+    color: #8EACCD;
+}
+
+.center{
+    display: flex;
+    justify-content: center; 
+}
+
+.border_imagen{
+    border: 2px solid #f40f0f;
+}
+
+
+
+.button-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
